@@ -20,36 +20,45 @@
 ---
 include:
   # Dongle Firmware
-  - board: seeeduino_xiao_ble
-    shield: corne_dongle dongle_screen
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_LOG_PROCESS_THREAD_STARTUP_DELAY_MS=8000
-    artifact-name: corne_dongle
+  #  - board: seeeduino_xiao_ble
+  #    shield: corne_dongle dongle_screen
+  #    snippet: studio-rpc-usb-uart
+  #    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_LOG_PROCESS_THREAD_STARTUP_DELAY_MS=8000
+  #    artifact-name: corne_dongle
+  #
+  #  - board: nice_nano_v2
+  #    shield: corne_left nice_view_adapter nice_view_battery
+  #    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n -DCONFIG_ZMK_SPLIT=y
+  #    artifact-name: corne_dongle_left
+  #
+  #  - board: nice_nano_v2
+  #    shield: corne_right nice_view_adapter nice_view_battery
+  #    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n -DCONFIG_ZMK_SPLIT=y
+  #    artifact-name: corne_dongle_right
+  #
+  #  # Plain BT firmware
+  #  - board: nice_nano_v2
+  #    shield: corne_left nice_view_adapter nice_view_battery
+  #    snippet: studio-rpc-usb-uart
+  #    artifact-name: corne_bt_left
+  #  - board: nice_nano_v2
+  #    shield: corne_right nice_view_adapter nice_view_battery
+  #    artifact-name: corne_bt_right
+  #
+  #  # reset_settings
+  #  - board: nice_nano_v2
+  #    shield: settings_reset
+  #    artifact-name: nano_reset_settings
+  #
+  #  - board: seeeduino_xiao_ble
+  #    shield: settings_reset
+  #    artifact-name: xiao_reset_settings
 
-  - board: nice_nano_v2
-    shield: corne_left nice_view_adapter nice_view_battery
-    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n -DCONFIG_ZMK_SPLIT=y
-    artifact-name: corne_dongle_left
-
-  - board: nice_nano_v2
-    shield: corne_right nice_view_adapter nice_view_battery
-    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n -DCONFIG_ZMK_SPLIT=y
-    artifact-name: corne_dongle_right
-
-  # Plain BT firmware
-  - board: nice_nano_v2
-    shield: corne_left nice_view_adapter nice_view_battery
-    snippet: studio-rpc-usb-uart
-    artifact-name: corne_bt_left
-  - board: nice_nano_v2
-    shield: corne_right nice_view_adapter nice_view_battery
-    artifact-name: corne_bt_right
-
-  # reset_settings
-  - board: nice_nano_v2
-    shield: settings_reset
-    artifact-name: nano_reset_settings
-
-  - board: seeeduino_xiao_ble
-    shield: settings_reset
-    artifact-name: xiao_reset_settings
+  #  - board: nice_nano_v2
+  #    shield: lily58_left nice_view_adapter nice_view_battery
+  #    snippet: studio-rpc-usb-uart
+  #    artifact-name: lily58_bt_left
+  #
+  #  - board: nice_nano_v2
+  #    shield: lily58_right nice_view_adapter nice_view_battery
+  #    artifact-name: lily58_bt_right
