@@ -55,10 +55,10 @@ include:
   #    artifact-name: xiao_reset_settings
 
   - board: nice_nano_v2
-    shield: lily58_left nice_view_adapter nice_view
+    shield: lily58_left nice_view_adapter nice_view_battery
     snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: lily58_bt_left
+
   - board: nice_nano_v2
-    shield: lily58_right nice_view_adapter nice_view
-  - board: nice_nano_v2
-    shield: settings_reset
+    shield: lily58_right nice_view_adapter nice_view_battery
+    artifact-name: lily58_bt_right
