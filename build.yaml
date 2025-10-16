@@ -54,11 +54,11 @@ include:
   #    shield: settings_reset
   #    artifact-name: xiao_reset_settings
 
-  - board: nice_nano_v2
-    shield: lily58_left nice_view_adapter nice_view_battery
-    snippet: studio-rpc-usb-uart
-    artifact-name: lily58_bt_left
-
-  - board: nice_nano_v2
-    shield: lily58_right nice_view_adapter nice_view_battery
-    artifact-name: lily58_bt_right
+  #  - board: nice_nano_v2
+  #    shield: lily58_left nice_view_adapter nice_view_battery
+  #    snippet: studio-rpc-usb-uart
+  #    artifact-name: lily58_bt_left
+  #
+  #  - board: nice_nano_v2
+  #    shield: lily58_right nice_view_adapter nice_view_battery
+  #    artifact-name: lily58_bt_right
