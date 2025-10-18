@@ -6,7 +6,7 @@
 - Keyboard: Corne 6 column [typeractive.xyz](https://typeractive.xyz)
 - Controller: nice!nano v2
 - Screen: nice!view
-- Switches Ambients Silent Kailh Low Profile Choc Switches (Twilight)
+- Switches: Ambients Silent Kailh Low Profile Choc Switches (Twilight)
 - Keycaps: Choc v1 Chicago Steno [etsy-link](https://www.etsy.com/listing/1841812213/choc-v1-chicago-steno-keycap-set-for?ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=stego+corner+keycaps&ref=sr_gallery-1-1&nob=1&content_source=a32ec505-6821-45c1-91d1-005108213b54%253ALT7028af2d572815f246910ab27bbae6ffca104ee0&organic_search_click=1&logging_key=a32ec505-6821-45c1-91d1-005108213b54%3ALT7028af2d572815f246910ab27bbae6ffca104ee0)
 - Simple Nice!View sheild display
 > https://github.com/infely/nice-view-battery
