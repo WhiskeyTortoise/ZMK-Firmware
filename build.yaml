@@ -19,7 +19,7 @@
 #
 ---
 include:
- Dongle Firmware
+  # Corne Dongle Firmware
   - board: seeeduino_xiao_ble
     shield: corne_dongle dongle_screen
     snippet: studio-rpc-usb-uart
@@ -36,7 +36,7 @@ include:
     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n -DCONFIG_ZMK_SPLIT=y
     artifact-name: corne_dongle_right
 
-  # Plain BT firmware
+  # Corne BT firmware
   - board: nice_nano_v2
     shield: corne_left nice_view_adapter nice_view_battery
     snippet: studio-rpc-usb-uart
@@ -53,7 +53,8 @@ include:
   - board: seeeduino_xiao_ble
     shield: settings_reset
     artifact-name: xiao_reset
-
+  
+  # Lily BT firmware
   - board: nice_nano_v2
     shield: lily58_left nice_view_adapter nice_view_battery
     snippet: studio-rpc-usb-uart
