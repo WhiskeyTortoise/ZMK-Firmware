@@ -28,20 +28,3 @@ While you can use the dongle with a direct USB connection to the system the nRF5
 ### Linking to dongle
 - turn on dongle, power leftside first then right side. I had found a few random references that stated linking in this order prevents issues with the battery perctage displaying flipped on the dongle screen.
 
-## Firmware
-For the Dongle (XIAO):
-- corne_dongle.uf2
-- xiao_reset_settings.uf2
-
-corne using dongle:
-- corne_dongle_left.uf2
-- corne_dongle_right.uf2
-- nano_reset_settings.uf2
-
-corne bt only:
-- corne_bt_right.uf2
-- corne_bt_left.uf2
-
-lily58 bt only:
-- lily58_bt_left.uf2
-- lily58_bt_right.uf2
