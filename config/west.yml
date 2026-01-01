@@ -4,10 +4,10 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: infely 
-      url-base: https://github.com/infely
-    - name: janpfischer
-      url-base: https://github.com/janpfischer
+        # - name: infely 
+        #   url-base: https://github.com/infely
+        # - name: janpfischer
+        #   url-base: https://github.com/janpfischer
     - name: petejohanson
       url-base: https://github.com/petejohanson/
     - name: caksoylar
@@ -16,12 +16,12 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-    - name: nice-view-battery
-      remote: infely
-      revision: main
-    - name: zmk-dongle-screen
-      remote: janpfischer
-      revision: main
+        # - name: nice-view-battery
+        #   remote: infely
+        #   revision: main
+        # - name: zmk-dongle-screen
+        #   remote: janpfischer
+        #   revision: main
     - name: cirque-input-module
       remote: petejohanson
       revision: main
