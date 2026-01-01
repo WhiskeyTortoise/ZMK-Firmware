@@ -80,3 +80,14 @@ include:
     shield: lily58_right nice_view_adapter nice_view_battery
     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n -DCONFIG_ZMK_SPLIT=y
     artifact-name: lily58_dongle_right
+
+  # Toucan
+  - board: seeeduino_xiao_ble
+    shield: toucan_left rgbled_adapter nice_view_gem
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: toucan_bt_left
+
+  - board: seeeduino_xiao_ble
+    shield: toucan_right rgbled_adapter
+    artifact-name: toucan_bt_right
